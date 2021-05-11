@@ -1,4 +1,11 @@
 #elias qubty
+"""
+Brute force attack to Md5 
+example 
+output:
+0a57258559de00695ffb0f1d46bba388 eli
+[None, None, None, None, 'eli']
+"""
 import random
 import hashlib
 from xeger import Xeger
