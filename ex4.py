@@ -1,5 +1,5 @@
 
-# Here is an example of a python inbuilt iterator
+# Here is an example of a python inbuilt iterator 
 # value can be anything which can be iterate
 file = open('C://Users//Admin//Desktop//python C//myfile.txt','r+')  
 str = file.read()
