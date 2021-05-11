@@ -4,7 +4,7 @@ example :
 input 10 
 output
 1
-4
+4 
 9
 16
 25
