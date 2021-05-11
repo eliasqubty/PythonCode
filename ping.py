@@ -1,3 +1,6 @@
+"""
+Ping attack (DOS)
+"""
 import os
 import multiprocessing
 def work(event):
