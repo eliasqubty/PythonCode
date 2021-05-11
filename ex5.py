@@ -1,3 +1,19 @@
+"""
+Squared consecutive numbers until the entered number
+example :
+input 10 
+output
+1
+4
+9
+16
+25
+36
+49
+64
+81
+100          
+"""
 class MyNumbers:
   def __iter__(self):
     self.a = 0

@@ -1,3 +1,10 @@
+"""
+Brute force attack
+example 
+searching hashing password "112"  
+print each process result after finding the required password 
+[None,112,None]
+"""
 from xeger import Xeger
 import hashlib
 import multiprocessing

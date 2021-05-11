@@ -1,3 +1,4 @@
+# generator that yields recursively all files paths 
 # Importing the os library
 import os
  
