@@ -1,5 +1,5 @@
 # generator that yields recursively all files paths 
-# Importing the os library
+# Importing the os library 
 import os
  
 # The path for listing items
