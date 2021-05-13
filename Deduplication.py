@@ -13,12 +13,12 @@ dict_txt_hex=dict()
 for path in pathlib.Path("C:/Users/Admin/Desktop/python C/CSV_files/").iterdir():
     if path.is_file() and not (path in path_lst) :
         current_file = open(path, "r")
-        print(path)
+        #print(path)
         file_content= current_file.read() 
         if not file_content in dict_txt_hex.keys():
           t = hashlib.sha256()
           t.update(current_file.read().encode())
-          print(t.hexdigest())
+          #print(t.hexdigest())
           dict_txt_hex[file_content]=t.hexdigest()
           path_lst.append(path)
         else :
@@ -26,5 +26,5 @@ for path in pathlib.Path("C:/Users/Admin/Desktop/python C/CSV_files/").iterdir()
         current_file.close()
     else :
         print("same dir")   
-print(dict_txt_hex)
-print(path_lst)
+#print(dict_txt_hex)
+#print(path_lst)
