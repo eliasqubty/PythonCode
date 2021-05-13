@@ -10,7 +10,7 @@ def work(event):
     pingstatus = "Network Active"
  else:
     pingstatus = "Network Error" 
-
+ 
 if __name__ == '__main__':
     m = multiprocessing.Manager()
     e = m.Event()
