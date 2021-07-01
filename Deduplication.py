@@ -4,7 +4,8 @@
 # copy.
 
 #file = open('C://Users//Admin//Desktop//python C//myfile.txt//CSV_files//','r+') 
-#print(file.read())   
+#print(file.read())
+# elias qubty
 import os
 import pathlib
 import hashlib
