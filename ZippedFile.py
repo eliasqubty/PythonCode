@@ -10,6 +10,7 @@ The file after compression :
 [0,0,1,2,3,2,1,0,3,0,0 ...]  ## index each word in the file for example one=0 , two=1 ,seven=3
 
 """
+# elias qubty
 from collections import Counter
 import os
 with open('zippedTxt.txt','w') as zipFile:
